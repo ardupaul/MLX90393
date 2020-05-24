@@ -4,7 +4,7 @@
 // This code is designed to work with the MLX90393_I2CS I2C Mini Module available from ControlEverything.com.
 // https://www.controleverything.com/products
 
-#include<Wire.h>
+#include<libraries/Wire.h>
 
 // MLX90393 I2C Address is 0x0C(12)
 #define Addr 0x0C
